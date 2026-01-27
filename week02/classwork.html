@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML Form Elements</title>
+  </head>
+  <body>
+    <!-- here is a form containing basic input types-->
+    <p>here is the form for HTML 
+        <a href="https://www.w3schools.com/html/html_forms.asp"
+        target="_blank"></a></p> 
+        <!-- _blank is to open it on new tab -->
+        <!--form tag itself is not visible on the page  -->
+        <form name="ContactUs"  target="_self" action="userLogin.js" method="get">  
+            <!-- always needs a form NAME -->
+            <!-- TARGET is usually self -->
+            <!-- ACTION - the script or function or API Endpoint to process form data -->
+             <!-- METHOD -->
+            <!-- Get - retrieve or read data  -->
+            <!-- Post - Writing to DB or sending onff to REST API endpoint -->
+            <!-- Put - Edit and update -->
+            <!-- delete - delete a record, usually we need to send of an unique identifier to know what item to delete -->
+                 
+            <fieldset> <!-- this is an old school tag. It is a way of grouping the input visually -->
+
+            <!-- LEGEND: Title -->
+            <legend>Simple text input</legend> 
+            <p>The box and title seen are created by fieldset and legend
+                Think modern dat form groups or input groups.
+            </p>
+            <!-- Input changes appreance and behaviour based on type attributes. 
+            If you do not specift, the default is type= text -->
+            <!-- NOTE: Labels should always pe present and same value -->
+            <label for="FirstName">First Name:</label>
+            <input type="text" name="FirstName" placeholder="type here" required /> 
+
+            <label for="LastName">Last Name:</label>
+            <input type="text" name="LastName" id="LastName" maxlength="15" required /> 
+
+            <label for="Age">Your Age:</label>
+            <input type="text" name="Age" placeholder="type here" maxlength="15" step="1" />
+            
+            <!-- password input is how we hide the text with those dots as default HTML behaviour/style -->
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" placeholder="type here" maxlength="15" required /> 
+            </fieldset>
+
+            <!-- Text box area -->
+            <fieldset>
+                <legend>TextArea Tag</legend>
+                <p>Text area tags are great for longer text answers, sentences and paragraphs</p>
+                <label for="whyIDM">Why IDM</label>
+                <textarea name="whyIDM" id="whyIDM" cols="30" rows="10"> </textarea>
+            </fieldset>
+
+            <!-- Checkboxes -->
+            <fieldset>
+                <legend>Checkboxes</legend>
+                <p>Allows users to check boxes more than one value</p> 
+                <strong>Checkboxes in the nsame group have the same name but different values</strong>
+        
+            <label for="pets">What pets do you have?</label>
+            <br />
+            <!-- BEWARE of copy paste! Make sure you update the text the user sees and the  -->
+            <input type="checkbox" name="pet" value="dog" />DOG <br />
+            <input type="checkbox" name="pet" value="cat" />CAT <br />
+            <input type="checkbox" name="pet" value="chicken" />CHICKEN <br />
+            </fieldset>
+
+            <!-- Radio Groups -->
+            <!-- allows users to select only one valuess... -->
+            <fieldset> <legend>Radio Buttons</legend>
+            <label for="favpet">Which pet is your fav?</label>
+            <input type="radio" name="favpet" id="" value="dog"><label>DOG</label>
+            <input type="radio" name="favpet" id="" value="cat"><label>CAT</label>
+            <input type="radio" name="favpet" id="" value="chicken"><label>CHICKEN</label>
+            </fieldset>
+            <!-- Select Options -->
+            <fieldset>
+            <legend>Select Options</legend>
+            <p>Using the select and options tag. You can add item to a drop down selection</p>
+            <label for="State">Where do you live?</label> 
+            <select name="State" id="State">
+                <!-- name the select tag which groups the options together. 
+                The value form each option is what writes to the DB -->
+                <option value="NH">New Hampshire</option>
+                <option value="NY">New York</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+            </select>
+            </fieldset>
+
+            <!-- Button to submit-->
+             <p>Button to submit the form</p>
+             <button role="button">Sign Up</button>
+
+            <input type="button" name="submit" value="submit">
+
+            <!-- End User Info -->
+        </form>
+    </body>
+</html>
