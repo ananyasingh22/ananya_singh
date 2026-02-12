@@ -1,0 +1,17 @@
+These are the notes for Week 3 Homework
+
+The site I looked into is this: https://thepastaqueen.cooking/lets-cook/?srsltid=AfmBOorU6XVuirQTQTjdPPcyIXOGNSGrTvczXX8qZwQodDCCFF6lNG5W 
+
+It has bunch of italian recipes of an italian chef Nadia Munno.
+
+When I opened the site, apart from a lot of red color, I looked at the navigation bar. There are 6 pages- About, Show, Cooking Recipe, Shop, 
+Membership (Royal Court). There is also a search bar. 
+
+Under Shop, there is a drop down menu. 
+
+The recipe page has images on the left and desciption and link to recipe on the right. 
+
+The website is very colorful, and attractive overall. 
+
+
+

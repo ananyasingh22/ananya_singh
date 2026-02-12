@@ -1,0 +1,41 @@
+Feb 3 2026
+Class Notes 
+
+Wireframes: present it to the client. 
+Before building a site think about 
+    - Pages 
+    - Information- for user flow
+    - Sitemap 
+
+Sitemap
+    - first visual presented to the client 
+
+Project
+    - Client wants a recipe
+    - Category breakdowns 
+        - ingredients 
+        - courses
+        - regions
+        - countries 
+    
+    - Main 
+        - Breakfast 
+        - Lunch
+        - Dinner 
+        - Dessert
+    
+    Home Page 
+        - Recipes 
+        - About
+        - Contact Us
+    
+    jumpping folder 
+
+    - .. to jump from conact - index 
+
+    CSS 
+     - 
+
+Homework:
+- create the flow chart 
+- 
